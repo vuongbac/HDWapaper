@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		429FE430B85CAE4F443CB36E /* Pods_HDWapaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABC021DF207B123E3279227 /* Pods_HDWapaper.framework */; };
+		98454C4B25EC8AED00EE18C2 /* BaseTBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98454C4A25EC8AED00EE18C2 /* BaseTBCell.swift */; };
+		98454C5025EC8AF400EE18C2 /* BaseCLCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98454C4F25EC8AF400EE18C2 /* BaseCLCell.swift */; };
+		984D474F25ECC210000C6849 /* DetailImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984D474E25ECC210000C6849 /* DetailImageController.swift */; };
 		98D4586F25E601C3007EADCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D4586E25E601C3007EADCB /* AppDelegate.swift */; };
 		98D4587125E601C3007EADCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D4587025E601C3007EADCB /* SceneDelegate.swift */; };
 		98D4587325E601C3007EADCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D4587225E601C3007EADCB /* ViewController.swift */; };
@@ -15,6 +19,9 @@
 		98D4587B25E601C8007EADCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D4587925E601C8007EADCB /* LaunchScreen.storyboard */; };
 		98D4588625E601C8007EADCB /* HDWapaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D4588525E601C8007EADCB /* HDWapaperTests.swift */; };
 		98D4589125E601C8007EADCB /* HDWapaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D4589025E601C8007EADCB /* HDWapaperUITests.swift */; };
+		98D458B025E602B3007EADCB /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D458AF25E602B3007EADCB /* PhotoModel.swift */; };
+		98D458B725E60EA4007EADCB /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D458B525E60EA4007EADCB /* PhotoCell.swift */; };
+		98D458B825E60EA4007EADCB /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D458B625E60EA4007EADCB /* PhotoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9303422765B9AB17DB027346 /* Pods-HDWapaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDWapaper.debug.xcconfig"; path = "Target Support Files/Pods-HDWapaper/Pods-HDWapaper.debug.xcconfig"; sourceTree = "<group>"; };
+		98454C4A25EC8AED00EE18C2 /* BaseTBCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTBCell.swift; sourceTree = "<group>"; };
+		98454C4F25EC8AF400EE18C2 /* BaseCLCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCLCell.swift; sourceTree = "<group>"; };
+		984D474E25ECC210000C6849 /* DetailImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImageController.swift; sourceTree = "<group>"; };
 		98D4586B25E601C3007EADCB /* HDWapaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDWapaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D4586E25E601C3007EADCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98D4587025E601C3007EADCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		98D4588C25E601C8007EADCB /* HDWapaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDWapaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D4589025E601C8007EADCB /* HDWapaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDWapaperUITests.swift; sourceTree = "<group>"; };
 		98D4589225E601C8007EADCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D458AF25E602B3007EADCB /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		98D458B525E60EA4007EADCB /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		98D458B625E60EA4007EADCB /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		9DBA0649049042736AA616CD /* Pods-HDWapaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDWapaper.release.xcconfig"; path = "Target Support Files/Pods-HDWapaper/Pods-HDWapaper.release.xcconfig"; sourceTree = "<group>"; };
+		AABC021DF207B123E3279227 /* Pods_HDWapaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDWapaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429FE430B85CAE4F443CB36E /* Pods_HDWapaper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				98D4588425E601C8007EADCB /* HDWapaperTests */,
 				98D4588F25E601C8007EADCB /* HDWapaperUITests */,
 				98D4586C25E601C3007EADCB /* Products */,
+				D3D1180E747FE60B074E813F /* Pods */,
+				DD7BE4FC9F43D67EA4C68EB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +118,11 @@
 		98D4586D25E601C3007EADCB /* HDWapaper */ = {
 			isa = PBXGroup;
 			children = (
+				98D458A325E601FA007EADCB /* Controller */,
+				98D458A225E601F0007EADCB /* View */,
+				98D458A125E601EA007EADCB /* Model */,
 				98D4586E25E601C3007EADCB /* AppDelegate.swift */,
 				98D4587025E601C3007EADCB /* SceneDelegate.swift */,
-				98D4587225E601C3007EADCB /* ViewController.swift */,
 				98D4587425E601C3007EADCB /* Main.storyboard */,
 				98D4587725E601C8007EADCB /* Assets.xcassets */,
 				98D4587925E601C8007EADCB /* LaunchScreen.storyboard */,
@@ -128,6 +149,51 @@
 			path = HDWapaperUITests;
 			sourceTree = "<group>";
 		};
+		98D458A125E601EA007EADCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98D458AF25E602B3007EADCB /* PhotoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98D458A225E601F0007EADCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98454C4F25EC8AF400EE18C2 /* BaseCLCell.swift */,
+				98454C4A25EC8AED00EE18C2 /* BaseTBCell.swift */,
+				98D458B525E60EA4007EADCB /* PhotoCell.swift */,
+				98D458B625E60EA4007EADCB /* PhotoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98D458A325E601FA007EADCB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98D4587225E601C3007EADCB /* ViewController.swift */,
+				984D474E25ECC210000C6849 /* DetailImageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3D1180E747FE60B074E813F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9303422765B9AB17DB027346 /* Pods-HDWapaper.debug.xcconfig */,
+				9DBA0649049042736AA616CD /* Pods-HDWapaper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD7BE4FC9F43D67EA4C68EB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AABC021DF207B123E3279227 /* Pods_HDWapaper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98D4589525E601C8007EADCB /* Build configuration list for PBXNativeTarget "HDWapaper" */;
 			buildPhases = (
+				294AAB59B6AABEF91D0B4CD1 /* [CP] Check Pods Manifest.lock */,
 				98D4586725E601C3007EADCB /* Sources */,
 				98D4586825E601C3007EADCB /* Frameworks */,
 				98D4586925E601C3007EADCB /* Resources */,
+				76070F229960AEFF25B8BB35 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D458B825E60EA4007EADCB /* PhotoCell.xib in Resources */,
 				98D4587B25E601C8007EADCB /* LaunchScreen.storyboard in Resources */,
 				98D4587825E601C8007EADCB /* Assets.xcassets in Resources */,
 				98D4587625E601C3007EADCB /* Main.storyboard in Resources */,
@@ -253,13 +322,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		294AAB59B6AABEF91D0B4CD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HDWapaper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76070F229960AEFF25B8BB35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HDWapaper/Pods-HDWapaper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HDWapaper/Pods-HDWapaper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HDWapaper/Pods-HDWapaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98D4586725E601C3007EADCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984D474F25ECC210000C6849 /* DetailImageController.swift in Sources */,
 				98D4587325E601C3007EADCB /* ViewController.swift in Sources */,
+				98D458B725E60EA4007EADCB /* PhotoCell.swift in Sources */,
+				98454C5025EC8AF400EE18C2 /* BaseCLCell.swift in Sources */,
 				98D4586F25E601C3007EADCB /* AppDelegate.swift in Sources */,
+				98D458B025E602B3007EADCB /* PhotoModel.swift in Sources */,
+				98454C4B25EC8AED00EE18C2 /* BaseTBCell.swift in Sources */,
 				98D4587125E601C3007EADCB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,16 +549,18 @@
 		};
 		98D4589625E601C8007EADCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9303422765B9AB17DB027346 /* Pods-HDWapaper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKQFGAA876;
 				INFOPLIST_FILE = HDWapaper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bac.vuongtoan.HDWapaper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xu.HDwapaper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,10 +569,12 @@
 		};
 		98D4589725E601C8007EADCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DBA0649049042736AA616CD /* Pods-HDWapaper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HDWapaper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +582,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bac.vuongtoan.HDWapaper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
