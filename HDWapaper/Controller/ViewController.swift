@@ -7,12 +7,15 @@
 
 import UIKit
 import ESPullToRefresh
+import PinterestLayout
 
 class ViewController: UIViewController {
+  
     @IBOutlet weak var navigationview: UIView!
     @IBOutlet weak var collectionView: UICollectionView!
     var model: Flickr?
     var data: [Photo] = []
+    let layout = PinterestLayout()
     
     private let itemsPerRow: CGFloat = 3
     private let sectionInsets = UIEdgeInsets(
@@ -146,8 +149,6 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource ,
         return CGSize(width: collectionView.bounds.width / 2 - 15, height: 200)
     }
     
-
-
 }
 
 extension ViewController {

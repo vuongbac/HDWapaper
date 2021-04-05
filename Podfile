@@ -9,6 +9,7 @@ target 'HDWapaper' do
 
  pod 'SDWebImage'
  pod 'ESPullToRefresh'
+ pod 'PinterestLayout'
 
 
 

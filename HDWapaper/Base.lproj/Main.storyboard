@@ -108,6 +108,21 @@
                                     <constraint firstItem="W24-j3-3fS" firstAttribute="width" secondItem="c2z-dx-n20" secondAttribute="width" id="zEQ-RG-h5W"/>
                                 </constraints>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bg5-DV-CXg">
+                                <rect key="frame" x="319" y="767" width="55" height="55"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Mc0-If-VOH"/>
+                                    <constraint firstAttribute="width" constant="55" id="zeM-tn-oou"/>
+                                </constraints>
+                                <state key="normal">
+                                    <imageReference key="image" image="square.and.arrow.down" catalog="system" symbolScale="large" renderingMode="original"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="medium"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnDownload:" destination="VoA-bk-z6P" eventType="touchUpInside" id="Pus-4j-Ggk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="05i-tY-nJc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -115,10 +130,13 @@
                             <constraint firstItem="c2z-dx-n20" firstAttribute="trailing" secondItem="05i-tY-nJc" secondAttribute="trailing" id="FCi-4p-qyi"/>
                             <constraint firstAttribute="bottom" secondItem="c2z-dx-n20" secondAttribute="bottom" id="L4o-Wr-H5f"/>
                             <constraint firstItem="c2z-dx-n20" firstAttribute="top" secondItem="uh6-fB-i6y" secondAttribute="top" id="MwZ-x6-0wM"/>
+                            <constraint firstItem="05i-tY-nJc" firstAttribute="bottom" secondItem="bg5-DV-CXg" secondAttribute="bottom" constant="40" id="PPe-8F-EMM"/>
+                            <constraint firstItem="05i-tY-nJc" firstAttribute="trailing" secondItem="bg5-DV-CXg" secondAttribute="trailing" constant="40" id="d3W-GW-lHd"/>
                             <constraint firstItem="c2z-dx-n20" firstAttribute="leading" secondItem="05i-tY-nJc" secondAttribute="leading" id="ezh-fV-9Vb"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="btnDownload" destination="bg5-DV-CXg" id="k6K-34-4K7"/>
                         <outlet property="imageView" destination="W24-j3-3fS" id="0Ea-Mw-Efv"/>
                         <outlet property="scrollView" destination="c2z-dx-n20" id="0P9-zm-Zyr"/>
                     </connections>
@@ -158,8 +176,12 @@
     <resources>
         <image name="Rectangle 10" width="48" height="53"/>
         <image name="music.note" catalog="system" width="97" height="128"/>
+        <image name="square.and.arrow.down" catalog="system" width="121" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
